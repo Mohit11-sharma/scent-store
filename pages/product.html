@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover elegant fragrances at ShopEase.">
+    <title>Product | ShopEase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="announcement">Complimentary shipping on orders above ₹1,999</div>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-main d-flex align-items-center justify-content-between">
+                <button class="mobile-menu-btn d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+                    aria-label="Open menu"><i class="bi bi-list"></i></button>
+                <a class="brand-name" href="../index.html">ShopEase<span style="color:var(--gold)">.</span></a>
+                <nav class="desktop-nav d-none d-lg-block">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item"><a class="nav-link " href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../pages/shop.html">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link " href="../pages/about.html">Our Story</a></li>
+                        <li class="nav-item"><a class="nav-link " href="../pages/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="d-flex align-items-center gap-2"><button class="header-icon" data-search-toggle
+                        aria-label="Search"><i class="bi bi-search"></i></button><a
+                        class="header-icon d-none d-sm-inline-block" href="../pages/login.html" aria-label="Account"><i
+                            class="bi bi-person"></i></a><a class="header-icon" href="../pages/wishlist.html"
+                        aria-label="Wishlist"><i class="bi bi-heart"></i><span class="count-badge"
+                            data-wish-count>0</span></a><a class="header-icon" href="../pages/cart.html"
+                        aria-label="Cart"><i class="bi bi-bag"></i><span class="count-badge"
+                            data-cart-count>0</span></a></div>
+            </div>
+        </div>
+        <div class="search-panel" data-search-panel>
+            <div class="container">
+                <form action="../pages/shop.html" class="d-flex gap-2"><input class="form-control" name="q"
+                        placeholder="Search your favourite fragrance..."><button class="btn btn-choco">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+        <div class="offcanvas-header"><span class="brand-name">ShopEase.</span><button class="btn-close"
+                data-bs-dismiss="offcanvas"></button></div>
+        <div class="offcanvas-body">
+            <div class="list-group list-group-flush"><a class="list-group-item" href="../index.html">Home</a><a
+                    class="list-group-item" href="../pages/shop.html">Shop</a><a class="list-group-item"
+                    href="../pages/about.html">Our Story</a><a class="list-group-item"
+                    href="../pages/contact.html">Contact</a><a class="list-group-item" href="../pages/login.html">My
+                    Account</a><a class="list-group-item" href="../pages/cart.html">Shopping Bag</a></div>
+        </div>
+    </div>
+    <main>
+        <section class="section-pad">
+            <div class="container">
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-6"><img id="detailImage" class="product-detail-img"
+                            src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85"
+                            alt="Perfume product"></div>
+                    <div class="col-lg-6 pt-lg-4">
+                        <div class="eyebrow">ShopEase signature collection</div>
+                        <h1 class="section-title mt-3" id="detailName">Amber Oud</h1>
+                        <div class="stars my-3">★★★★★ <span class="text-muted ms-2">Customer favourite</span></div>
+                        <div class="price fs-5" id="detailPrice">₹2,499</div>
+                        <p class="section-copy my-4" id="detailDesc">Warm • Woody • Intense. A confident fragrance with
+                            a memorable trail.</p>
+                        <p class="small text-muted">A considered fragrance for everyday moments and special evenings.
+                            Product details are sample content for this frontend demo.</p>
+                        <div class="my-4"><label class="form-label">Size</label><select class="form-select"
+                                style="max-width:160px">
+                                <option>100 ml</option>
+                                <option>50 ml</option>
+                                <option>30 ml</option>
+                            </select></div>
+                        <div class="d-flex flex-wrap gap-3"><button class="btn btn-choco" id="detailAdd">Add to
+                                bag</button><button class="btn btn-outline-choco" id="detailWish"><i
+                                    class="bi bi-heart me-2"></i>Wishlist</button></div>
+                        <hr class="my-4">
+                        <div class="d-flex gap-3 py-2"><i class="bi bi-truck"></i><span>Complimentary shipping above
+                                ₹1,999</span></div>
+                        <div class="d-flex gap-3 py-2"><i class="bi bi-box-seam"></i><span>Carefully packed for safe
+                                delivery</span></div>
+                        <div class="d-flex gap-3 py-2"><i class="bi bi-arrow-repeat"></i><span>Read our shipping &
+                                returns policy</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-pad pt-0">
+            <div class="container">
+                <h2 class="section-title mb-4">You may also love.</h2>
+                <div class="row g-4">
+                    <div class="col-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-image-wrap"><a href="product.html?id=vanilla-veil"><img
+                                        src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85"
+                                        alt="Vanilla Veil" loading="lazy"></a><span class="product-tag">NEW</span>
+                                <div class="product-actions"><button aria-label="Add to wishlist"
+                                        data-wishlist='{"id":"vanilla-veil","name":"Vanilla Veil","desc":"Soft \u2022 Sweet \u2022 Creamy","price":1899,"old":0,"image":"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85","tag":"NEW","size":"100 ml"}'><i
+                                            class="bi bi-heart"></i></button></div>
+                            </div>
+                            <div class="product-info">
+                                <div class="stars mb-2">★★★★★</div>
+                                <h3><a href="product.html?id=vanilla-veil">Vanilla Veil</a></h3>
+                                <p>Soft • Sweet • Creamy</p>
+                                <div class="price">₹1,899</div><button class="btn btn-outline-choco btn-sm mt-3 w-100"
+                                    data-add-cart='{"id":"vanilla-veil","name":"Vanilla Veil","desc":"Soft \u2022 Sweet \u2022 Creamy","price":1899,"old":0,"image":"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85","tag":"NEW","size":"100 ml"}'>Add
+                                    to bag</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-image-wrap"><a href="product.html?id=rose-noir"><img
+                                        src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=85"
+                                        alt="Rose Noir" loading="lazy"></a><span class="product-tag">POPULAR</span>
+                                <div class="product-actions"><button aria-label="Add to wishlist"
+                                        data-wishlist='{"id":"rose-noir","name":"Rose Noir","desc":"Floral \u2022 Rose \u2022 Musk","price":2199,"old":2599,"image":"https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=85","tag":"POPULAR","size":"100 ml"}'><i
+                                            class="bi bi-heart"></i></button></div>
+                            </div>
+                            <div class="product-info">
+                                <div class="stars mb-2">★★★★★</div>
+                                <h3><a href="product.html?id=rose-noir">Rose Noir</a></h3>
+                                <p>Floral • Rose • Musk</p>
+                                <div class="price">₹2,199<span class="old-price">₹2,599</span></div><button
+                                    class="btn btn-outline-choco btn-sm mt-3 w-100"
+                                    data-add-cart='{"id":"rose-noir","name":"Rose Noir","desc":"Floral \u2022 Rose \u2022 Musk","price":2199,"old":2599,"image":"https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=85","tag":"POPULAR","size":"100 ml"}'>Add
+                                    to bag</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-image-wrap"><a href="product.html?id=oud-essence"><img
+                                        src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85"
+                                        alt="Oud Essence" loading="lazy"></a><span class="product-tag">LIMITED</span>
+                                <div class="product-actions"><button aria-label="Add to wishlist"
+                                        data-wishlist='{"id":"oud-essence","name":"Oud Essence","desc":"Smoky \u2022 Spicy \u2022 Deep","price":3299,"old":0,"image":"https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85","tag":"LIMITED","size":"100 ml"}'><i
+                                            class="bi bi-heart"></i></button></div>
+                            </div>
+                            <div class="product-info">
+                                <div class="stars mb-2">★★★★★</div>
+                                <h3><a href="product.html?id=oud-essence">Oud Essence</a></h3>
+                                <p>Smoky • Spicy • Deep</p>
+                                <div class="price">₹3,299</div><button class="btn btn-outline-choco btn-sm mt-3 w-100"
+                                    data-add-cart='{"id":"oud-essence","name":"Oud Essence","desc":"Smoky \u2022 Spicy \u2022 Deep","price":3299,"old":0,"image":"https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85","tag":"LIMITED","size":"100 ml"}'>Add
+                                    to bag</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-image-wrap"><a href="product.html?id=citrus-dawn"><img
+                                        src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=85"
+                                        alt="Citrus Dawn" loading="lazy"></a>
+                                <div class="product-actions"><button aria-label="Add to wishlist"
+                                        data-wishlist='{"id":"citrus-dawn","name":"Citrus Dawn","desc":"Fresh \u2022 Citrus \u2022 Bright","price":1599,"old":0,"image":"https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=85","tag":"","size":"100 ml"}'><i
+                                            class="bi bi-heart"></i></button></div>
+                            </div>
+                            <div class="product-info">
+                                <div class="stars mb-2">★★★★★</div>
+                                <h3><a href="product.html?id=citrus-dawn">Citrus Dawn</a></h3>
+                                <p>Fresh • Citrus • Bright</p>
+                                <div class="price">₹1,599</div><button class="btn btn-outline-choco btn-sm mt-3 w-100"
+                                    data-add-cart='{"id":"citrus-dawn","name":"Citrus Dawn","desc":"Fresh \u2022 Citrus \u2022 Bright","price":1599,"old":0,"image":"https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=85","tag":"","size":"100 ml"}'>Add
+                                    to bag</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>const catalog = [{ "id": "amber-oud", "name": "Amber Oud", "desc": "Warm \u2022 Woody \u2022 Intense", "price": 2499, "old": 2999, "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85", "tag": "BESTSELLER", "size": "100 ml" }, { "id": "vanilla-veil", "name": "Vanilla Veil", "desc": "Soft \u2022 Sweet \u2022 Creamy", "price": 1899, "old": 0, "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85", "tag": "NEW", "size": "100 ml" }, { "id": "rose-noir", "name": "Rose Noir", "desc": "Floral \u2022 Rose \u2022 Musk", "price": 2199, "old": 2599, "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=85", "tag": "POPULAR", "size": "100 ml" }, { "id": "oud-essence", "name": "Oud Essence", "desc": "Smoky \u2022 Spicy \u2022 Deep", "price": 3299, "old": 0, "image": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85", "tag": "LIMITED", "size": "100 ml" }, { "id": "citrus-dawn", "name": "Citrus Dawn", "desc": "Fresh \u2022 Citrus \u2022 Bright", "price": 1599, "old": 0, "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }, { "id": "velvet-musk", "name": "Velvet Musk", "desc": "Clean \u2022 Musk \u2022 Elegant", "price": 1999, "old": 2299, "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }, { "id": "sandalwood-soul", "name": "Sandalwood Soul", "desc": "Earthy \u2022 Woody \u2022 Calm", "price": 2799, "old": 0, "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }, { "id": "midnight-bloom", "name": "Midnight Bloom", "desc": "Floral \u2022 Amber \u2022 Night", "price": 2399, "old": 0, "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }]; const id = new URLSearchParams(location.search).get('id'); const item = catalog.find(p => p.id === id) || catalog[0]; document.addEventListener('DOMContentLoaded', () => { document.getElementById('detailName').textContent = item.name; document.getElementById('detailImage').src = item.image; document.getElementById('detailPrice').textContent = '₹' + item.price.toLocaleString('en-IN'); document.getElementById('detailDesc').textContent = item.desc + '. A considered fragrance for everyday moments and special evenings.'; document.getElementById('detailAdd').onclick = () => addToCart(item); document.getElementById('detailWish').onclick = () => toggleWishlist(item); });</script>
+    <section class="newsletter">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6"><span class="eyebrow">A little note from us</span>
+                    <h2 class="serif mt-2">Stay in the know.</h2>
+                    <p>Get first access to new scents, thoughtful stories and special offers.</p>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <form class="newsletter-form d-flex gap-3" data-newsletter><input type="email" class="form-control"
+                            placeholder="Your email address" required><button
+                            class="btn btn-outline-light rounded-0 text-uppercase" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4"><a class="brand-name text-white" href="../index.html">ShopEase.</a>
+                    <p class="mt-3" style="color:#c5b6aa;line-height:1.9;max-width:300px">Scent is personal. Discover
+                        thoughtfully curated fragrances that make every moment memorable.</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h3 class="footer-title">Explore</h3><a class="footer-link" href="../pages/shop.html">All
+                        fragrances</a><a class="footer-link" href="../pages/about.html">Our story</a><a
+                        class="footer-link" href="../pages/contact.html">Contact us</a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h3 class="footer-title">Help</h3><a class="footer-link" href="../pages/faq.html">FAQs</a><a
+                        class="footer-link" href="../pages/shipping.html">Shipping & returns</a><a class="footer-link"
+                        href="../pages/contact.html">Support</a>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="footer-title">Say hello</h3><a class="footer-link"
+                        href="mailto:hello@shopease.example">hello@shopease.example</a><span
+                        class="footer-link">Mon–Sat, 10 AM–6 PM</span>
+                    <div class="d-flex gap-3 mt-3"><a class="footer-link" href="#"><i class="bi bi-instagram"></i></a><a
+                            class="footer-link" href="#"><i class="bi bi-facebook"></i></a><a class="footer-link"
+                            href="#"><i class="bi bi-pinterest"></i></a></div>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026
+                    ShopEase. Demo storefront.</span><span>Privacy · Terms · Made with care</span></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
