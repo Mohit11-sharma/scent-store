@@ -1,6 +1,6 @@
-# ShopEase — Perfume Store Frontend
+# SCENT STORE - E-COMMERCE PROJECT FRONTEND
 
-A responsive multi-page perfume-store frontend built with HTML5, CSS3, Bootstrap 5 and a small amount of vanilla JavaScript for demo interactions.
+A responsive multi-page perfume-store frontend built with HTML5, CSS3, Bootstrap 5 and a small amount of JavaScript for demo interactions.
 
 ## Pages included
 - Home (`index.html`)
@@ -51,5 +51,6 @@ Bootstrap, Bootstrap Icons, Google Fonts and sample product photography load fro
 ## Customization
 - Main styling: `assets/css/style.css`
 - Frontend interactions: `assets/js/main.js`
+- Frontend interactions: `assets/js/main-second.js`
 - Home page: `index.html`
 - Other pages: `pages/`
