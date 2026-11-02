@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # Scent-store — Perfume Store Frontend
+=======
+# SCENT STORE - E-COMMERCE PROJECT FRONTEND
+>>>>>>> c871bb7c348e89ce9f9b445c9e080a1f71132e24
 
-A responsive multi-page perfume-store frontend built with HTML5, CSS3, Bootstrap 5 and a small amount of vanilla JavaScript for demo interactions.
+A responsive multi-page perfume-store frontend built with HTML5, CSS3, Bootstrap 5 and a small amount of JavaScript for demo interactions.
 
 ## Pages included
 - Home (`index.html`)
