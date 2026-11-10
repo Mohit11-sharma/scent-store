@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <div class="announcement">Complimentary shipping on orders above ₹1,999</div>
+    <!-- <div class="announcement">Complimentary shipping on orders above ₹1,999</div> -->
     <header class="site-header">
         <div class="container">
             <div class="header-main d-flex align-items-center justify-content-between">
                 <button class="mobile-menu-btn d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
                     aria-label="Open menu"><i class="bi bi-list"></i></button>
-                <a class="brand-name" href="../index.html"> Scent Store<span style="color:var(--gold)">.</span></a>
+                <a class="brand-name" href="../index.html"> Scent Store</a>
                 <nav class="desktop-nav d-none d-lg-block">
                     <ul class="navbar-nav flex-row">
                         <li class="nav-item"><a class="nav-link " href="../index.html">Home</a></li>
@@ -182,7 +182,7 @@
         </section>
     </main>
     <script>const catalog = [{ "id": "amber-oud", "name": "Amber Oud", "desc": "Warm \u2022 Woody \u2022 Intense", "price": 2499, "old": 2999, "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85", "tag": "BESTSELLER", "size": "100 ml" }, { "id": "vanilla-veil", "name": "Vanilla Veil", "desc": "Soft \u2022 Sweet \u2022 Creamy", "price": 1899, "old": 0, "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85", "tag": "NEW", "size": "100 ml" }, { "id": "rose-noir", "name": "Rose Noir", "desc": "Floral \u2022 Rose \u2022 Musk", "price": 2199, "old": 2599, "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=85", "tag": "POPULAR", "size": "100 ml" }, { "id": "oud-essence", "name": "Oud Essence", "desc": "Smoky \u2022 Spicy \u2022 Deep", "price": 3299, "old": 0, "image": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85", "tag": "LIMITED", "size": "100 ml" }, { "id": "citrus-dawn", "name": "Citrus Dawn", "desc": "Fresh \u2022 Citrus \u2022 Bright", "price": 1599, "old": 0, "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }, { "id": "velvet-musk", "name": "Velvet Musk", "desc": "Clean \u2022 Musk \u2022 Elegant", "price": 1999, "old": 2299, "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }, { "id": "sandalwood-soul", "name": "Sandalwood Soul", "desc": "Earthy \u2022 Woody \u2022 Calm", "price": 2799, "old": 0, "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }, { "id": "midnight-bloom", "name": "Midnight Bloom", "desc": "Floral \u2022 Amber \u2022 Night", "price": 2399, "old": 0, "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85", "tag": "", "size": "100 ml" }]; const id = new URLSearchParams(location.search).get('id'); const item = catalog.find(p => p.id === id) || catalog[0]; document.addEventListener('DOMContentLoaded', () => { document.getElementById('detailName').textContent = item.name; document.getElementById('detailImage').src = item.image; document.getElementById('detailPrice').textContent = '₹' + item.price.toLocaleString('en-IN'); document.getElementById('detailDesc').textContent = item.desc + '. A considered fragrance for everyday moments and special evenings.'; document.getElementById('detailAdd').onclick = () => addToCart(item); document.getElementById('detailWish').onclick = () => toggleWishlist(item); });</script>
-    <section class="newsletter">
+    <!-- <section class="newsletter">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-lg-6"><span class="eyebrow">A little note from us</span>
@@ -197,7 +197,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <footer class="site-footer">
         <div class="container">
             <div class="row g-5">
